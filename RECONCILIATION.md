@@ -209,9 +209,12 @@ incomplete or manual) · `Spec-only` (described, not built) · `Hypothesis`
    coupled to any one implementation's repository. The canon stands alone as the
    defining principles from which *multiple* continuity engines may be built
    (cross-AI continuity, cross-platform/social continuity, etc.). AxiomCE is one
-   such engine: it lives in its own repository and is referenced from the canon
-   repo as a **git submodule** at `axiomCE/` (not vendored), so the engine's
-   history stays independent and reusable while the canon remains self-contained.
+   such engine, maintained in its **own separate repository** (a sibling of this
+   canon — not nested or vendored here), so the canon stays fully self-contained
+   and engine-agnostic. Implementations (e.g. the `axiomCE-sample` reference and
+   the owner's private `chrisOS` instance) consume **both** the canon and a
+   continuity engine as dependencies (git submodules), pinning the versions they
+   build against.
 3. **Authority link into the reference implementation.** Add a pointer that names
    the repo as the *reference implementation of AxiomCE* and Axiom as the
    theory-of-record. (Added as `THEORY.md` in the reference repo; committed
