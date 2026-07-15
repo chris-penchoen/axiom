@@ -1,0 +1,6 @@
+# The AxiomCE public preview is a separate repository with its own remote.
+axiomCE/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
