@@ -200,15 +200,15 @@ incomplete or manual) · `Spec-only` (described, not built) · `Hypothesis`
 1. **Ratify the axiom classification (§A).** The four-tier split is applied in
    `./00_AXIOMS.md` as a draft (stable IDs preserved). Confirm the tier
    assignments, or move any axiom between tiers.
-2. **Decide where the Axiom canon lives.** It is currently a standalone,
-   non-git directory. Layer invariance (Axiom 21) argues the theory should *not*
-   be coupled to one implementation's repository — its own repo is the cleaner
-   home; a `theory/` directory inside the reference repo is the pragmatic
-   alternative.
+2. **Where the Axiom canon lives — RESOLVED.** The canon is now its own git
+   repository (`C:\axiom`, branch `main`, local-only until the owner adds a
+   remote and pushes), per layer invariance (Axiom 21): the theory is not
+   coupled to any one implementation's repository. The AxiomCE public preview
+   (`axiomCE/`) remains a separate repo and is gitignored here.
 3. **Authority link into the reference implementation.** Add a pointer that names
    the repo as the *reference implementation of AxiomCE* and Axiom as the
-   theory-of-record. (Proposed as a `THEORY.md` in the reference repo, pending the
-   owner's commit — the CLI does not commit.)
+   theory-of-record. (Added as `THEORY.md` in the reference repo; committed
+   locally, pushed manually by the owner.)
 4. **Naming.** The reference implementation still self-identifies as "ChrisOS" /
    "cognitive-model" (provisional). The term equivalences are now fixed in the
    **Terminology glossary** above ("cognitive-model" = the collaboration plane);
