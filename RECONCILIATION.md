@@ -225,3 +225,14 @@ incomplete or manual) · `Spec-only` (described, not built) · `Hypothesis`
    These — not additional doctrine — are the bottleneck (consistent with
    `cognitive-model/calibration/cases/cm-cal-0002.md`: avoid premature frameworks;
    let evidence lead).
+7. **Deferred spec-maturity apparatus (gated).** An external RFC review proposed
+   RFC-2119 keywords (MUST/SHOULD/MAY) across the doctrine, documentation-level
+   concept IDs (e.g. `ONT-003`, `EPI-011`), and a normative `SPECIFICATION.md`
+   defining conformance for any Continuity Engine. These are deferred, not
+   rejected: their payoff is external implementability, which presumes multiple
+   implementers — itself hypothesis H1 (n=1 today). **Gate:** adopt them when a
+   second implementer exists **or** the evidence gaps in §B (item 6) close,
+   whichever comes first. Adopting them earlier would violate item 6 and Design
+   Principle 24 (avoid empty abstractions). The already-existing architectural
+   invariants (`06_ARCHITECTURE.md` §3) are the low-risk seed for that spec when
+   the gate opens.
