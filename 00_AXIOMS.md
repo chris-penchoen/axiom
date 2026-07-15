@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Axioms
 
 ## The invariant foundation of Axiom and AxiomCE
+
+> **Canon graph.** Depends on: `02_THE_PLATFORM_FALLACY` (motivation) · Defines: Axioms 1–26 (foundational propositions) · Required by: all downstream canon.
 
 Axiom is the invariant theory. AxiomCE is the Continuity Engine that operationalizes it.
 

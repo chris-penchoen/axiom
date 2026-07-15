@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # The Layer Invariance Principle
 
 ## Why Axiom must outlive every implementation of AxiomCE
+
+> **Canon graph.** Depends on: `00_AXIOMS` (Axiom 21), `03_ONTOLOGY`, `04_EPISTEMOLOGY`, `06_ARCHITECTURE` · Defines: the Layer Invariance Principle, the layer stack · Required by: `README`, `RECONCILIATION`.
 
 ## A Foundational Architectural Principle of AxiomCE
 

@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Architecture
 
 ## A deep technical specification of the Axiom Continuity Engine
+
+> **Canon graph.** Depends on: `00_AXIOMS`, `03_ONTOLOGY`, `04_EPISTEMOLOGY`, `05_CONTINUITY` · Defines: architectural invariants, the canonical continuity cycle (§4), the five planes · Required by: `07_DESIGN_PRINCIPLES`, `RECONCILIATION`, and the AxiomCE preview.
 
 ## Abstract
 

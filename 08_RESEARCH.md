@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: unresolved
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Research
 
 ## The living philosophical and empirical program of AxiomCE
+
+> **Canon graph.** Depends on: `00_AXIOMS`, `03_ONTOLOGY`, `04_EPISTEMOLOGY`, `05_CONTINUITY` · Defines: hypotheses H1–H9, the empirical program · Required by: `RECONCILIATION`; cross-referenced by the hypothesis-class axioms in `00_AXIOMS`.
 
 Axiom is not treated as ideology, and AxiomCE is not assumed to have proven its objectives merely because its architecture is coherent.
 

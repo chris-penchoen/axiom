@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Reconciliation
 
 ## Theory <-> implementation, axiom classification, and honest maturity
+
+> **Canon graph.** Depends on: all canon files · Defines: the three-layer identity, the axiom classification, the theory -> implementation maturity map, the terminology glossary · Required by: the reference implementation.
 
 This document connects the Axiom theory to its reference implementation and
 states, without inflation, what is actually built versus what is specification or

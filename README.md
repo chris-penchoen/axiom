@@ -3,6 +3,7 @@ title: Axiom & AxiomCE — Canon
 type: index
 classification: public
 status: active
+version: 0.1
 updated: 2026-07-15
 ---
 
@@ -30,13 +31,16 @@ theory outlives every engine; every engine outlives every implementation.
 4. `./02_THE_PLATFORM_FALLACY.md`
 5. `./03_ONTOLOGY.md`
 6. `./04_EPISTEMOLOGY.md`
-7. `./05_CONTINUITY.md`
-8. `./06_ARCHITECTURE.md`
-9. `./07_DESIGN_PRINCIPLES.md`
-10. `./08_RESEARCH.md`
-11. `./09_LAYER_INVARIANCE.md`
-12. `./10_PRODUCT_THINKING_VS_CONTINUITY_THINKING.md`
-13. `./RECONCILIATION.md` — theory <-> implementation map, axiom classification, and maturity
+7. `./11_SEMANTICS.md` — meaning-preservation; a peer discipline of ontology and epistemology (numbered 11 for stable-ID reasons, read here)
+8. `./05_CONTINUITY.md`
+9. `./06_ARCHITECTURE.md`
+10. `./07_DESIGN_PRINCIPLES.md`
+11. `./08_RESEARCH.md`
+12. `./09_LAYER_INVARIANCE.md`
+13. `./10_PRODUCT_THINKING_VS_CONTINUITY_THINKING.md`
+14. `./RECONCILIATION.md` — theory <-> implementation map, axiom classification, and maturity
+
+Reference: `./GLOSSARY.md` — canonical definition index for every key term.
 
 ## The engine (AxiomCE)
 
@@ -46,6 +50,10 @@ theory. Its first reference implementation is ChrisOS (the author's private
 instance).
 
 ## Status and maturity
+
+**Canon version: v0.1** — the theory is versioned independently of any AxiomCE
+implementation release (per layer invariance, Axiom 21). Each file carries its
+own `version` in front matter so philosophical revisions never track code.
 
 These are **working Canon drafts** (`status: draft`), not ratified doctrine. The
 theory is internally coherent and faithfully generalizes the reference

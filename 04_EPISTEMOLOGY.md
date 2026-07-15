@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Epistemology
 
 ## How AxiomCE determines what is known
+
+> **Canon graph.** Depends on: `00_AXIOMS`, `03_ONTOLOGY` · Defines: knowledge vs information, the epistemic pipeline, the three temporal coordinates, evidence > confidence, ratification · Required by: `06_ARCHITECTURE`, `11_SEMANTICS`, `RECONCILIATION`.
 
 Every information system contains an implicit theory of knowledge.
 

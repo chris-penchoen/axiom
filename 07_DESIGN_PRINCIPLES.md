@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Design Principles
 
 ## Engineering rules derived from the Axiom foundation
+
+> **Canon graph.** Depends on: `00_AXIOMS`, `03_ONTOLOGY`, `04_EPISTEMOLOGY`, `06_ARCHITECTURE` · Defines: 25 engineering principles derived from the axioms · Required by: the reference implementation.
 
 ### 1. Preserve continuity, not implementations
 

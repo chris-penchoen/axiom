@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Ontology
 
 ## What AxiomCE treats as existing
+
+> **Canon graph.** Depends on: `00_AXIOMS` · Defines: the 24 core objects (Human … Iteration) — full index in `GLOSSARY.md` · Required by: `04_EPISTEMOLOGY`, `05_CONTINUITY`, `06_ARCHITECTURE`, `11_SEMANTICS`.
 
 Every information system contains an ontology whether or not it declares one.
 

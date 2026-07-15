@@ -4,12 +4,15 @@ type: theory
 classification: public
 status: draft
 confidence: inferred
+version: 0.1
 updated: 2026-07-15
 ---
 
 # Continuity
 
 ## Knowledge compounded over time across platforms
+
+> **Canon graph.** Depends on: `00_AXIOMS`, `03_ONTOLOGY` · Defines: Continuity, the three requirements, the continuity invariant · Required by: `06_ARCHITECTURE`, `RECONCILIATION`.
 
 Continuity is easy to confuse with storage, memory, history, or backup.
 
