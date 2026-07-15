@@ -16,9 +16,10 @@ updated: 2026-07-15
 - **AxiomCE** — the *Axiom Continuity Engine*: the architecture that operationalizes
   Axiom (evidence -> governed canonical state -> projected context -> execution ->
   new evidence).
-- **Reference implementation** — the current *build* of AxiomCE (the ChrisOS
-  repository). Today it preserves continuity across disparate AI agents; the same
-  architecture generalizes to any system that accumulates durable human state.
+- **Reference implementation** — a concrete *build* of AxiomCE (the public
+  `axiomCE-sample`, or a private personal instance). Today it preserves continuity
+  across disparate AI agents; the same architecture generalizes to any system that
+  accumulates durable human state.
 
 Each layer is replaceable by the one above it (see `./09_LAYER_INVARIANCE.md`): the
 theory outlives every engine; every engine outlives every implementation.
@@ -44,10 +45,10 @@ Reference: `./GLOSSARY.md` — canonical definition index for every key term.
 
 ## The engine (AxiomCE)
 
-The [`./axiomCE/`](./axiomCE/README.md) directory holds the sanitized
-public-preview package for **AxiomCE** — the engine that operationalizes this
-theory. Its first reference implementation is ChrisOS (the author's private
-instance).
+**AxiomCE** — the engine that operationalizes this theory — lives in its own
+repository (`axiomCE`), consumed alongside this canon as a dependency. Its public
+reference implementation is `axiomCE-sample`; private personal instances are
+derived from the same framework.
 
 ## Status and maturity
 
