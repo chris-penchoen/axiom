@@ -1190,7 +1190,7 @@ That accumulated value should remain under human authority.
 
 ## 34. The fourth axiom
 
-> **Portability is successful only when the human does not have to start over.**
+> **Reduced restart cost is not portability. Portability means the human pays nothing again for knowledge already earned.**
 
 A file dump is not enough.
 A chat export is not enough.

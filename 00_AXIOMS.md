@@ -63,9 +63,9 @@ When conclusions are separated from their origins, summaries become detached fro
 
 ### Axiom 10 — Evidence outranks confidence
 
-Systems can be confidently wrong. A confidence estimate may influence action, but it does not explain why a claim deserves belief.
+Systems can be confidently wrong. A confidence estimate may influence action, but it does not explain why a claim deserves belief. This ranks the *weight* of evidence, not its mere presence. The ranking is asymmetric: evidence that disconfirms a confident claim cuts hardest, because confidence cannot explain away a contradiction; evidence that confirms raises belief only in proportion to its quality and provenance (Axiom 9). A single weak, confirming observation does not establish a claim merely by being "evidence."
 
-> **Evidence outranks confidence.**
+> **Confidence never earns belief on its own. Evidence outranks it — most sharply when it disconfirms, and only in proportion to its weight when it confirms.**
 
 ### Axiom 13 — Reality, observation, and revision time are independent
 
@@ -99,27 +99,29 @@ These follow from the foundational axioms. They are strong commitments, but each
 
 ### Axiom 2 — Continuity must not depend on one platform
 
-Companies change direction. Products are redesigned. Services are discontinued. Accounts are lost. Standards evolve. Interfaces disappear. Reasoning engines are replaced. No platform should be assumed to remain stable for the full duration of a human life.
+Companies change direction. Products are redesigned. Services are discontinued. Accounts are lost. Standards evolve. Interfaces disappear. Reasoning engines are replaced. No platform should be assumed to remain stable for the full duration of a human life. Continuity always runs on *some* substrate at any moment; what it must never require is a *particular*, irreplaceable one. Dependence on open, human-inspectable formats is acceptable — precisely because they can be re-implemented; dependence on a controlled or discontinuable platform is not.
 
-> **Human continuity must not depend on the continued existence of any single platform.**
+> **No single platform may be irreplaceable to human continuity: every platform it touches must be substitutable, and its durable state must live in open, inspectable forms.**
 
 ### Axiom 5 — Ownership means independent control
 
-A user may be able to view, search, and interact with information without being able to inspect, migrate, preserve, or reconstruct it independently. Conditional access to a platform is not equivalent to durable ownership of continuity.
+A user may be able to view, search, and interact with information without being able to inspect, preserve, migrate, or reconstruct it independently. Conditional access to a platform is not equivalent to durable ownership of continuity. A capability that exists only on paper — an export you cannot open, a format no tool reads, a key you do not hold — is not ownership; control must be actually exercisable, not merely granted.
 
-> **Continuity is owned only when it can be inspected, preserved, migrated, and governed independently of its current host.**
+> **Continuity is owned only when the human can actually exercise — not merely be granted — the ability to inspect, preserve, migrate, and reconstruct it independently of its current host.**
 
-### Axiom 6 — Portability means not starting over
+### Axiom 6 — Portability means paying nothing again for earned knowledge
 
-A file export may preserve content while losing identity, relationships, provenance, temporal structure, authority, collaboration policy, and operational context. Possession of artifacts does not guarantee the ability to continue the work.
+A file export may preserve content while losing identity, relationships, provenance, temporal structure, authority, collaboration policy, and meaning. Possession of artifacts does not guarantee the ability to continue the work.
 
-> **Portability is successful only when the human does not have to start over.**
+Nor is partial transfer sufficient. A system may carry over *some* knowledge — enough that the human is not literally starting from zero — while still forcing re-derivation of much that was already earned. Reduced restart cost is not portability; it is partial continuity. Portability is a ceiling, not a floor: it is reached only when nothing already earned must be rebuilt.
 
-### Axiom 11 — Uncertainty is represented, not concealed
+> **Reduced restart cost is not portability. Portability means the human pays nothing again for knowledge already earned.**
 
-Information may be incomplete, disputed, inferred, estimated, outdated, or unresolved. Removing uncertainty does not improve truth. It only hides the limits of knowledge.
+### Axiom 11 — Uncertainty is represented faithfully, not concealed or omitted
 
-> **Uncertainty must be represented, not concealed.**
+Information may be incomplete, disputed, inferred, estimated, outdated, or unresolved. Uncertainty is defeated not only by deletion but by burial — moved to a footnote, averaged away, or labeled insignificant so it stops affecting decisions. Removing, hiding, or minimizing uncertainty does not improve truth; it only hides the limits of knowledge, often behind the technicality of having "disclosed" it somewhere.
+
+> **Uncertainty must be represented faithfully and in proportion to its weight — never concealed, omitted, or downplayed as insignificant.**
 
 ### Axiom 12 — Contradictions are preserved until resolved
 
@@ -183,9 +185,9 @@ Platforms provide tools, storage, interfaces, and execution. The user provides t
 
 ### Axiom 18 — Models propose; humans ratify
 
-If a model may convert its own output failures into permanent claims about the user, the system can recursively distort the relationship. (Whether this control actually reduces mischaracterization is testable — see H6 — but the choice to require ratification is a value.)
+A model must not be able to convert its own outputs — including its errors — into permanent, authoritative claims about the human. If it could, the system would recursively distort the person it exists to preserve. So models propose into provisional, labeled state (Axioms 9, 11); a claim becomes authoritative only through an authority the human holds. That authority may be *exercised* by standing policy, delegation, sampling, or deferred review — it need not be a per-item human approval — but it can never be *seized* by a model, and every ratified claim remains reversible and contestable (Axioms 12, 13, 24). When two models disagree, the tie is settled by evidence, provenance, and weight (Axioms 9, 10), not by whichever model is more confident or more recent; the human authority is the owner and backstop, not the referee of every tie. (Whether ratification actually reduces mischaracterization is testable — see H6 — but the choice to keep final authority human is a value.)
 
-> **Models may propose. Humans ratify.**
+> **Models may propose. Authority over the human's record is human-held — never self-certified by a model, and always reversible.**
 
 ### Axiom 19 — On divergence, preserve the human
 
@@ -195,9 +197,9 @@ Products naturally optimize for usability, engagement, retention, adoption, cohe
 
 ### Axiom 24 — Ownership includes the right to retire and delete
 
-Not all information should remain active or accessible forever. People change. Some records should expire, be restricted, be corrected, be archived, or be deleted.
+Not all information should remain active or accessible forever. People change. Some records should expire, be restricted, be corrected, be archived, or be deleted. Deletion governs access and what is treated as current, not history: a record may be retired, restricted, redacted, or tombstoned, but the audited fact that it existed and was withdrawn remains part of the record.
 
-> **Human ownership includes the authority to preserve, revise, restrict, retire, and delete.**
+> **Human ownership includes the authority to preserve, revise, restrict, retire, redact, and delete — where deletion withdraws information from active state without falsifying the record that it once existed.**
 
 ---
 
