@@ -4,7 +4,7 @@ type: index
 classification: public
 status: active
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Axiom & AxiomCE — Canon
@@ -76,3 +76,27 @@ Every file carries front matter (`title`, `type`, `classification`, `status`,
 `confidence`, `updated`) consistent with the reference implementation's
 conventions — so the canon obeys its own epistemology: inspectable, classified,
 and confidence-labeled.
+
+## Publication editions (derived)
+
+`MONOGRAPH.md` is the reader-facing publication edition of this Canon — a single
+portable file (and its DOCX/PDF snapshots) meant for human readers who want the
+argument without navigating the repository. It is a **derived rendering, not a
+source of truth.**
+
+**Binding rule — the monograph must match the Canon:**
+
+- The **Canon chapters are authoritative**. `MONOGRAPH.md` carries the Canon's
+  principal ideas in portable form and MUST NOT introduce, alter, or drop a
+  principal idea that is not also present in a Canon file.
+- Any substantive change to a canonical idea and any meaning-bearing change made
+  in the monograph is **not complete until both are updated in the same change**.
+  The monograph and the Canon are edited as one unit, never allowed to diverge.
+- The monograph MAY compile, re-order, and add reader-facing connective prose
+  (transitions, framing, headings) that carries **no new principal claim**; such
+  prose is editorial, not canonical.
+- On any divergence, the **Canon wins** and the monograph is corrected to match.
+
+This follows layer invariance (Axiom 21): the theory is authoritative; every
+rendering of it is replaceable and must not become the definition of the thing
+rendered.

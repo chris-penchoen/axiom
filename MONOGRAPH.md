@@ -18,7 +18,7 @@ source_manifest: ./publication-manifest.json
 **Chris Penchoen**  
 Technical Monograph · Living Edition · Version 0.1 · July 2026
 
-> **Living-document status.** This file is the reader-facing publication edition of the Axiom Canon. The root Canon files remain authoritative for theory. `publication-manifest.json` records the Canon and release artifacts last reviewed together by the human owner.
+> **Living-document status.** This file is the reader-facing publication edition of the Axiom Canon: a portable, complete rendering of the Canon's principal ideas for human readers. The root Canon files remain authoritative for theory, and this edition **must stay in sync with them** — it carries no principal idea the Canon does not, and any change to a canonical idea is propagated here in the same change (see the Canon README, "Publication editions"). `publication-manifest.json` records the Canon and release artifacts last reviewed together by the human owner.
 
 [Axiom Canon](https://github.com/chris-penchoen/axiom) · [AxiomCE](https://github.com/chris-penchoen/axiomCE) · [Reference Implementation](https://github.com/chris-penchoen/axiomCE-sample)
 

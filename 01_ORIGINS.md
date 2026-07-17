@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: user-stated
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Origins
@@ -73,6 +73,10 @@ Cloud computing separated services from individual machines.
 Modern identity systems separated the user from the endpoint.
 
 In each case, something valuable became less dependent on the implementation that happened to host it.
+
+Each advancement promised flexibility, mobility, and freedom.
+
+Yet none answered the question that only becomes obvious in hindsight — once it is already too late to ask it.
 
 The recurring infrastructure question was always the same:
 
