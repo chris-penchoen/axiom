@@ -1454,7 +1454,7 @@ Models reason, generate, summarize, search, transform, and use tools. They are v
 
 ### Axiom 9 — Provenance is part of knowledge
 
-When conclusions are separated from their origins, summaries become detached from evidence. Reported facts become inferred facts. Estimates become certainties. Outdated state becomes current state.
+When conclusions are separated from their origins, summaries become detached from evidence. Reported facts become inferred facts. Estimates become certainties. Outdated state becomes current state. Provenance must actually bear on the claim it accompanies. A source that exists but does not support the specific claim lends it no weight; irrelevant or decorative provenance is not provenance.
 
 > **Provenance is part of knowledge, not metadata added after it.**
 
@@ -1526,7 +1526,7 @@ Conflicting statements may indicate change over time, incomplete evidence, multi
 
 ### Axiom 14 — Authority must be explicit
 
-Every system ultimately decides which source, record, person, or process controls the current answer. When authority is implicit, inconsistency emerges.
+Every system ultimately decides which source, record, person, or process controls the current answer. When authority is implicit, inconsistency emerges. Explicit means visible and attributable — who claims authority, and on what basis. It does not by itself make that authority legitimate; an explicit but ungrounded authority claim is visible precisely so it can be contested.
 
 > **Authority must be explicit.**
 
@@ -1538,7 +1538,7 @@ When multiple documents or systems independently own the same concept, they even
 
 ### Axiom 17 — Facts and collaboration are governed separately
 
-Factual claims gain authority through evidence and provenance. Collaboration policy gains authority through repeated successful interaction, correction, and human approval. Treating both as one category weakens both.
+Factual claims gain authority through evidence and provenance. Collaboration policy gains authority through repeated successful interaction, correction, and human approval. Treating both as one category weakens both. Because the two are governed by different bars, misclassification is itself an attack surface: a factual claim routed through collaboration governance escapes the evidence it requires. The category of a claim is subject to evidence and authority — it cannot be chosen to lower the bar.
 
 > **Knowledge of the world and knowledge of collaboration require separate governance.**
 
