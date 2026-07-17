@@ -97,6 +97,17 @@ source of truth.**
   prose is editorial, not canonical.
 - On any divergence, the **Canon wins** and the monograph is corrected to match.
 
+**Two classes of publication** (all registered in `publication-manifest.json`):
+
+- **Faithful renderings** (e.g., `MONOGRAPH.md`) are bound by the rule above:
+  they carry the Canon's principal ideas with none added or dropped, and are
+  edited as one unit with the Canon. The monograph is publication #1.
+- **Derivative publications** — interpretations, expansions, essays, or talks
+  built *from* the Canon — are **not** required to match it and may interpret and
+  expand freely. They carry no obligation of word-for-word fidelity; they are only
+  **logged in `publication-manifest.json`** for provenance and tracking, recording
+  the Canon version they derive from.
+
 This follows layer invariance (Axiom 21): the theory is authoritative; every
 rendering of it is replaceable and must not become the definition of the thing
 rendered.

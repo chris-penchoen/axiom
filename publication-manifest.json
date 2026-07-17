@@ -1,0 +1,26 @@
+{
+  "note": "Registry of Axiom Canon publications. The Canon (this repository's chapter files) is authoritative. Every publication derived from the Canon is logged here for provenance and tracking. See README.md, 'Publication editions'.",
+  "canon_version": "0.1",
+  "updated": "2026-07-16",
+  "classes": {
+    "faithful-rendering": "A portable reformatting of the Canon that must stay faithful to its principal ideas: it introduces no new principal claim, drops none, and is edited as one unit with the Canon. On divergence, the Canon wins.",
+    "derivative": "An interpretation, expansion, essay, or talk built from the Canon. Free to interpret, reframe, and expand; not required to match the Canon. Logged here only for tracking and provenance, recording the Canon version it derives from."
+  },
+  "publications": [
+    {
+      "id": "monograph",
+      "title": "Axiom: Continuity as Human-Owned Infrastructure",
+      "class": "faithful-rendering",
+      "path": "./MONOGRAPH.md",
+      "version": "0.1",
+      "artifacts": ["DOCX snapshot", "PDF snapshot"],
+      "derives_from_canon_version": "0.1",
+      "last_reconciled": {
+        "date": "2026-07-16",
+        "canon_commit": "fd71b7c",
+        "method": "owner-directed sync in session; canon and monograph edited as one unit"
+      },
+      "status": "active"
+    }
+  ]
+}
