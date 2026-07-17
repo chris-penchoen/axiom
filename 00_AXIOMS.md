@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: inferred
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Axioms
@@ -49,11 +49,11 @@ A person may use dozens of devices, operating systems, applications, storage pla
 
 > **The human is persistent. The platform is replaceable.**
 
-### Axiom 7 — Reasoning is transient; context is durable
+### Axiom 7 — Reasoning is transient; knowledge is durable
 
 Models reason, generate, summarize, search, transform, and use tools. They are valuable because of what they can execute. They are not inherently authoritative custodians of the human state surrounding that execution.
 
-> **Reasoning is transient. Context is durable.**
+> **Reasoning is transient. Knowledge is durable.**
 
 ### Axiom 9 — Provenance is part of knowledge
 
@@ -205,11 +205,11 @@ Not all information should remain active or accessible forever. People change. S
 
 These entries were written as axioms, but they are actually **empirical predictions about the future**. They may well be true, and the architecture is designed as if they are — but they are not yet supported by evidence and must not be asserted as foundations. They are retained here, with their stable numbers, but governed as research (`./08_RESEARCH.md`).
 
-### Axiom 8 — Intelligence may be more replaceable than context *(hypothesis, = H9)*
+### Axiom 8 — Intelligence may be more replaceable than accumulated knowledge *(hypothesis, = H9)*
 
 A more capable model may reason better than an older one while knowing nothing about the user's history, constraints, corrections, decisions, or working patterns. Capability cannot substitute for continuity.
 
-> **Intelligence can be replaced more easily than accumulated context.**
+> **Intelligence can be replaced more easily than accumulated knowledge.**
 
 This is the commoditization bet (H9). It is plausible and directionally supported by industry trends, but unproven. Treat as hypothesis.
 

@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: inferred
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Semantics
@@ -28,6 +28,8 @@ means. Continuity ultimately requires preserving meaning, not merely structure.
 > files handled only implicitly (in provenance, projection, and portability).
 
 ## 1. Meaning is not structure
+
+**Meaning is the interpretation of knowledge** — what a claim actually asserts, as distinct from how it is stored, phrased, or projected. Preserving it is the concern of this pillar.
 
 Two artifacts may share a schema and still assert different things. A summary may
 be well-formed yet drop a qualifier that changed the claim's scope. A migrated

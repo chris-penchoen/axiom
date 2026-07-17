@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: inferred
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Reconciliation
@@ -80,7 +80,7 @@ evidence exists).
 | 5 | Ownership = inspect/preserve/migrate/govern independently | Derived principle | definition |
 | 6 | Portability succeeds only if human need not start over | Derived principle | definition / success test |
 | 7 | Reasoning transient; context durable | Foundational | framing premise |
-| 8 | Intelligence replaced more easily than context | **Empirical hypothesis** | = H9 (market bet) |
+| 8 | Intelligence replaced more easily than accumulated knowledge | **Empirical hypothesis** | = H9 (market bet) |
 | 9 | Provenance is part of knowledge | Foundational | epistemology |
 | 10 | Evidence outranks confidence | Foundational | epistemology |
 | 11 | Uncertainty represented, not concealed | Derived principle | epistemic policy |

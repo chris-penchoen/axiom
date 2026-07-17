@@ -162,7 +162,7 @@ The objective is that every future iteration begins farther ahead than the last.
 
 AxiomCE began with a practical problem.
 
-Years of collaboration with an AI system had produced a valuable body of accumulated context: facts, active projects, corrections, working patterns, trusted methods, known failure modes, and an increasingly effective way of solving problems together.
+Years of collaboration with an AI system had produced a valuable body of accumulated knowledge: facts, active projects, corrections, working patterns, trusted methods, known failure modes, and an increasingly effective way of solving problems together.
 
 Almost none of that value was independently owned.
 
@@ -170,7 +170,7 @@ It existed inside a platform.
 
 The first objective was therefore straightforward: preserve the context so a different AI could continue the work without requiring the human to start over.
 
-The project was initially called **ChrisOS** because it was a personal system built around one person's accumulated context. The working description was portable AI memory.
+The project was initially called **ChrisOS** because it was a personal system built around one person's accumulated knowledge. The working description was portable AI memory.
 
 That description quickly became inadequate.
 
@@ -582,7 +582,7 @@ The durable asset is the state around it.
 
 This leads to one of the core architectural principles of AxiomCE:
 
-> **Reasoning engines are replaceable. Accumulated context is not.**
+> **Reasoning engines are replaceable. Accumulated knowledge is not.**
 
 The industry will continue to produce better models.
 
@@ -610,7 +610,7 @@ But the long-term trend points toward abundance.
 
 More models will become capable enough for more tasks. Execution costs will fall. Specialized models will proliferate. Open models will improve. Model routing will become common. Users will increasingly switch between systems.
 
-As intelligence becomes easier to obtain, accumulated context becomes comparatively more valuable.
+As intelligence becomes easier to obtain, accumulated knowledge becomes comparatively more valuable.
 
 A model can be replaced in minutes.
 
@@ -1308,7 +1308,7 @@ A platform may be exceptionally capable and still be an unacceptable single poin
 
 ## 33. The third axiom
 
-> **Accumulated context is a human-created asset.**
+> **Accumulated knowledge is a human-created asset.**
 
 The platform may help organize it. The model may help interpret it. The vendor may provide infrastructure.
 
@@ -1446,11 +1446,11 @@ A person may use dozens of devices, operating systems, applications, storage pla
 
 > **The human is persistent. The platform is replaceable.**
 
-### Axiom 7 — Reasoning is transient; context is durable
+### Axiom 7 — Reasoning is transient; knowledge is durable
 
 Models reason, generate, summarize, search, transform, and use tools. They are valuable because of what they can execute. They are not inherently authoritative custodians of the human state surrounding that execution.
 
-> **Reasoning is transient. Context is durable.**
+> **Reasoning is transient. Knowledge is durable.**
 
 ### Axiom 9 — Provenance is part of knowledge
 
@@ -1596,11 +1596,11 @@ Not all information should remain active or accessible forever. People change. S
 
 These entries were written as axioms, but they are actually empirical predictions about the future. They may well be true, and the architecture is designed as if they are — but they are not yet supported by evidence and must not be asserted as foundations. They are retained here, with their stable numbers, but governed as research (the Research Program).
 
-### Axiom 8 — Intelligence may be more replaceable than context (hypothesis, = H9)
+### Axiom 8 — Intelligence may be more replaceable than accumulated knowledge (hypothesis, = H9)
 
 A more capable model may reason better than an older one while knowing nothing about the user's history, constraints, corrections, decisions, or working patterns. Capability cannot substitute for continuity.
 
-> **Intelligence can be replaced more easily than accumulated context.**
+> **Intelligence can be replaced more easily than accumulated knowledge.**
 
 This is the commoditization bet (H9). It is plausible and directionally supported by industry trends, but unproven. Treat as hypothesis.
 
@@ -2057,6 +2057,13 @@ For information to become durable knowledge, the engine must be able to answer:
 
 Without these dimensions, information may be useful, but it is not governed knowledge.
 
+Two further terms complete the picture, and the canon holds them distinct:
+
+- **Intelligence** is the vehicle that reasons over knowledge — the model or execution engine. It generates, summarizes, transforms, and applies knowledge, but it is neither the knowledge nor its custodian (Axiom 7). Intelligence is replaceable; the knowledge it operates on is the durable asset.
+- **Meaning** is the interpretation of knowledge — what a claim actually asserts, which must survive every transformation (see the Semantics pillar).
+
+So the stack is: information becomes **knowledge** when it is evaluated and situated; knowledge compounded over time across platforms is **continuity**; **context** is the disposable, task-relevant projection drawn from it; **intelligence** is the replaceable vehicle that operates on it; and **meaning** is what all of the above must preserve.
+
 ## 2. The epistemic pipeline
 
 AxiomCE processes potential knowledge through a recursive pipeline:
@@ -2339,6 +2346,8 @@ This is a distinct discipline. A transformation can be structurally valid, schem
 > **Maturity.** This is the youngest pillar of the canon and is largely specification rather than demonstrated practice. It names a concern the earlier files handled only implicitly (in provenance, projection, and portability).
 
 ## 1. Meaning is not structure
+
+**Meaning is the interpretation of knowledge** — what a claim actually asserts, as distinct from how it is stored, phrased, or projected. Preserving it is the concern of this pillar.
 
 Two artifacts may share a schema and still assert different things. A summary may be well-formed yet drop a qualifier that changed the claim's scope. A migrated record may validate against a new format yet lose the temporal bounds that made it true only for a period. Structural validity is necessary but not sufficient for semantic fidelity.
 
@@ -3701,7 +3710,7 @@ A continuity-oriented architecture asks a different set of questions:
 - What happens if this platform disappears?
 - What happens if the vendor changes direction?
 - Can the user migrate without rebuilding years of work?
-- Is accumulated context coupled to a temporary implementation?
+- Is accumulated knowledge coupled to a temporary implementation?
 - Does the human remain the canonical owner of their continuity?
 
 These questions often reduce dependence on any single platform.
@@ -3756,7 +3765,7 @@ New reasoning engines will emerge.
 
 Existing ones will converge in capability.
 
-As this occurs, the scarce resource will increasingly become durable context rather than raw intelligence.
+As this occurs, the scarce resource will increasingly become durable knowledge rather than raw intelligence.
 
 Future systems may therefore compete less on isolated reasoning performance and more on:
 
@@ -3836,11 +3845,12 @@ This glossary is an index, not a source of truth. Each term has one canonical de
 | Adapter                      | Ontology §20                    | A model/runtime-specific adjustment that cannot fork canonical policy.                    |
 | Evaluation                   | Ontology §21                    | A recorded comparison of behavior against requirements; produces evidence, not authority. |
 | Ratification                 | Ontology §22 / Epistemology §11 | The authoritative act that makes a proposal canonical.                                    |
-| Knowledge (vs information)   | Epistemology §1                 | Information that has been evaluated and situated.                                         |
+| Knowledge (vs information)   | Epistemology §1                 | Information that has been evaluated and situated; the durable asset.                       |
+| Intelligence                 | Epistemology §1                 | The replaceable vehicle that reasons over knowledge; the execution plane, not a custodian. |
 | Continuity                   | Continuity                      | Knowledge compounded over time across platforms.                                          |
 | Continuity cycle / iteration | Architecture §4                 | The canonical fifteen-stage recursive loop (condensed in Ontology §24).                   |
 | Portability                  | Architecture §11                | Preservation of canonical meaning across implementation change.                           |
-| Semantics / meaning          | Semantics                       | Whether meaning survives transformation.                                                  |
+| Semantics / meaning          | Semantics                       | The interpretation of knowledge; what must survive transformation.                        |
 
 Terms not listed here are defined at first use in their owning section. If a term is used canonically in more than one place, that is a drift signal to resolve.
 

@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: inferred
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Glossary
@@ -42,11 +42,12 @@ terminology equivalence table in `RECONCILIATION.md`.
 | Adapter | `03_ONTOLOGY.md` §20 | A model/runtime-specific adjustment that cannot fork canonical policy. |
 | Evaluation | `03_ONTOLOGY.md` §21 | A recorded comparison of behavior against requirements; produces evidence, not authority. |
 | Ratification | `03_ONTOLOGY.md` §22 / `04_EPISTEMOLOGY.md` §11 | The authoritative act that makes a proposal canonical. |
-| Knowledge (vs information) | `04_EPISTEMOLOGY.md` §1 | Information that has been evaluated and situated. |
+| Knowledge (vs information) | `04_EPISTEMOLOGY.md` §1 | Information that has been evaluated and situated; the durable asset. |
+| Intelligence | `04_EPISTEMOLOGY.md` §1 | The replaceable vehicle that reasons over knowledge; the execution plane, not a custodian of it. |
 | Continuity | `05_CONTINUITY.md` | Knowledge compounded over time across platforms. |
 | Continuity cycle / iteration | `06_ARCHITECTURE.md` §4 | The canonical fifteen-stage recursive loop (condensed in `03_ONTOLOGY.md` §24). |
 | Portability | `06_ARCHITECTURE.md` §11 | Preservation of canonical meaning across implementation change. |
-| Semantics / meaning | `11_SEMANTICS.md` | Whether meaning survives transformation. |
+| Semantics / meaning | `11_SEMANTICS.md` | The interpretation of knowledge; what must survive transformation. |
 
 Terms not listed here are defined at first use in their owning file. If a term is
 used canonically in more than one place, that is a drift signal to resolve.

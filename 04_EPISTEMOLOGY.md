@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: inferred
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Epistemology
@@ -59,6 +59,13 @@ For information to become durable knowledge, the engine must be able to answer:
 - For which scope is it applicable?
 
 Without these dimensions, information may be useful, but it is not governed knowledge.
+
+Two further terms complete the picture, and the canon holds them distinct:
+
+- **Intelligence** is the vehicle that reasons over knowledge — the model or execution engine. It generates, summarizes, transforms, and applies knowledge, but it is neither the knowledge nor its custodian (Axiom 7). Intelligence is replaceable; the knowledge it operates on is the durable asset.
+- **Meaning** is the interpretation of knowledge — what a claim actually asserts, which must survive every transformation (see `11_SEMANTICS.md`).
+
+So the stack is: information becomes **knowledge** when it is evaluated and situated; knowledge compounded over time across platforms is **continuity** (`05_CONTINUITY.md`); **context** is the disposable, task-relevant projection drawn from it (`03_ONTOLOGY.md` §16); **intelligence** is the replaceable vehicle that operates on it; and **meaning** is what all of the above must preserve.
 
 ## 2. The epistemic pipeline
 

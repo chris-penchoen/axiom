@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: unresolved
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # Product Thinking vs. Continuity Thinking
@@ -39,7 +39,7 @@ A continuity-oriented architecture asks a different set of questions:
 -   What happens if this platform disappears?
 -   What happens if the vendor changes direction?
 -   Can the user migrate without rebuilding years of work?
--   Is accumulated context coupled to a temporary implementation?
+-   Is accumulated knowledge coupled to a temporary implementation?
 -   Does the human remain the canonical owner of their continuity?
 
 These questions often reduce dependence on any single platform.

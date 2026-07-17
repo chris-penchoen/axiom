@@ -14,7 +14,7 @@ updated: 2026-07-16
 
 AxiomCE began with a practical problem.
 
-Years of collaboration with an AI system had produced a valuable body of accumulated context: facts, active projects, corrections, working patterns, trusted methods, known failure modes, and an increasingly effective way of solving problems together.
+Years of collaboration with an AI system had produced a valuable body of accumulated knowledge: facts, active projects, corrections, working patterns, trusted methods, known failure modes, and an increasingly effective way of solving problems together.
 
 Almost none of that value was independently owned.
 
@@ -22,7 +22,7 @@ It existed inside a platform.
 
 The first objective was therefore straightforward: preserve the context so a different AI could continue the work without requiring the human to start over.
 
-The project was initially called **ChrisOS** because it was a personal system built around one person's accumulated context. The working description was portable AI memory.
+The project was initially called **ChrisOS** because it was a personal system built around one person's accumulated knowledge. The working description was portable AI memory.
 
 That description quickly became inadequate.
 

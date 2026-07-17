@@ -5,7 +5,7 @@ classification: public
 status: draft
 confidence: inferred
 version: 0.1
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 # The Platform Fallacy
@@ -357,7 +357,7 @@ The durable asset is the state around it.
 
 This leads to one of the core architectural principles of AxiomCE:
 
-> **Reasoning engines are replaceable. Accumulated context is not.**
+> **Reasoning engines are replaceable. Accumulated knowledge is not.**
 
 The industry will continue to produce better models.
 
@@ -396,7 +396,7 @@ Open models will improve.
 Model routing will become common.
 Users will increasingly switch between systems.
 
-As intelligence becomes easier to obtain, accumulated context becomes comparatively more valuable.
+As intelligence becomes easier to obtain, accumulated knowledge becomes comparatively more valuable.
 
 A model can be replaced in minutes.
 
@@ -1176,7 +1176,7 @@ A platform may be exceptionally capable and still be an unacceptable single poin
 
 ## 33. The third axiom
 
-> **Accumulated context is a human-created asset.**
+> **Accumulated knowledge is a human-created asset.**
 
 The platform may help organize it.
 The model may help interpret it.
