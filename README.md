@@ -26,6 +26,7 @@ theory outlives every engine; every engine outlives every implementation.
 
 ## Reading order
 
+0. `./MANIFESTO.md` — the public, dated statement of the thesis (start here)
 1. `./VISION.md`
 2. `./00_AXIOMS.md`
 3. `./01_ORIGINS.md`
